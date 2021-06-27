@@ -7,7 +7,7 @@
   <title>React</title>
   <link rel="stylesheet" href="./app.css"/>
   <!-- React -->
-  <script src="//unpkg.com/systemjs@0.19.47/dist/system.js"></script>
+  <script onerror="notok()" onload="ok()" src="//unpkg.com/systemjs@0.19.47/dist/system.js"></script>
   
 </head>
 
@@ -18,7 +18,7 @@
   <div class="loading">
     <img src="./assets/app_icon.png" />
     <h3 class="logoheader">My Messenger</h3>
-    <h3 class="logoheader">Loading</h3>
+    <h3 id="h3" class="logoheader">Loading</h3>
   </div>
 </body>
 </html>
